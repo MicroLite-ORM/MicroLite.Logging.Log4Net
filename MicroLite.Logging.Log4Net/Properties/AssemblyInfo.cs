@@ -1,6 +1,6 @@
 ﻿// -----------------------------------------------------------------------
 // <copyright file="AssemblyInfo.cs" company="MicroLite">
-// Copyright 2012 - 2013 Project Contributors
+// Copyright 2012 - 2014 Project Contributors
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -18,12 +18,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("MicroLite.Extensions.Log4Net")]
+[assembly: AssemblyTitle("MicroLite.Logging.Log4Net")]
 [assembly: AssemblyDescription("MicroLite ORM Framework extension to use log4net")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("MicroLite")]
-[assembly: AssemblyProduct("MicroLite.Extensions.Log4Net")]
-[assembly: AssemblyCopyright("Copyright 2012-2013 MicroLite Project Contributors all rights reserved.")]
+[assembly: AssemblyProduct("MicroLite.Logging.Log4Net")]
+[assembly: AssemblyCopyright("Copyright 2012 - 2014 MicroLite Project Contributors all rights reserved.")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
