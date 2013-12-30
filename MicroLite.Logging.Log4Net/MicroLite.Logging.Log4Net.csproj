@@ -58,7 +58,7 @@
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ConfigurationExtensions.cs" />
+    <Compile Include="Log4NetConfigurationExtensions.cs" />
     <Compile Include="LogAdapter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

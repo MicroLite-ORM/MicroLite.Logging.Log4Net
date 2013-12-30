@@ -10,7 +10,7 @@
 //
 // </copyright>
 // -----------------------------------------------------------------------
-namespace MicroLite.Logging
+namespace MicroLite.Logging.Log4Net
 {
     using System;
     using System.Globalization;

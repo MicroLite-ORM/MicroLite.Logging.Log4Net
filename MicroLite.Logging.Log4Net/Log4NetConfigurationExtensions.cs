@@ -1,5 +1,5 @@
 ﻿// -----------------------------------------------------------------------
-// <copyright file="ConfigurationExtensions.cs" company="MicroLite">
+// <copyright file="Log4NetConfigurationExtensions.cs" company="MicroLite">
 // Copyright 2012 - 2014 Project Contributors
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -13,12 +13,12 @@
 namespace MicroLite.Configuration
 {
     using System;
-    using MicroLite.Logging;
+    using MicroLite.Logging.Log4Net;
 
     /// <summary>
     /// Extensions for the MicroLite configuration.
     /// </summary>
-    public static class ConfigurationExtensions
+    public static class Log4NetConfigurationExtensions
     {
         /// <summary>
         /// Configures the MicroLite ORM Framework to use log4net as the logging framework.
