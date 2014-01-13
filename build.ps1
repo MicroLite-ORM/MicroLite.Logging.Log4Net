@@ -23,7 +23,7 @@ function UpdateAssemblyInfoFiles ([string] $buildVersion)
 	$assemblyVersion = 'AssemblyVersion("' + $buildVersion.SubString(0, 3) + '.0.0")';
 	$fileVersion = 'AssemblyFileVersion("' + $buildVersion.SubString(0, 5) + '.0")';
 	$infoVersion = 'AssemblyInformationalVersion("' + $buildVersion + ' (' + $commit + ')")';
-	$copyright = 'AssemblyCopyright("Copyright 2012-' + $date.Year + ' MicroLite Project Contributors all rights reserved.")';
+	$copyright = 'AssemblyCopyright("Copyright 2012 - ' + $date.Year + ' MicroLite Project Contributors all rights reserved.")';
 	
 	Get-ChildItem $scriptPath -r -filter AssemblyInfo.cs | ForEach-Object {
 		$filename = $_.Directory.ToString() + '\' + $_.Name
