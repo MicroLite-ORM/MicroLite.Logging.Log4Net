@@ -24,6 +24,46 @@ namespace MicroLite.Logging.Log4Net
             this.log = log;
         }
 
+        public bool IsDebug
+        {
+            get
+            {
+                return this.log.IsDebugEnabled;
+            }
+        }
+
+        public bool IsError
+        {
+            get
+            {
+                return this.log.IsErrorEnabled;
+            }
+        }
+
+        public bool IsFatal
+        {
+            get
+            {
+                return this.log.IsFatalEnabled;
+            }
+        }
+
+        public bool IsInfo
+        {
+            get
+            {
+                return this.log.IsInfoEnabled;
+            }
+        }
+
+        public bool IsWarn
+        {
+            get
+            {
+                return this.log.IsWarnEnabled;
+            }
+        }
+
         public void Debug(string message)
         {
             this.log.Debug(message);

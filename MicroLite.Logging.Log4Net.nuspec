@@ -15,7 +15,7 @@
     <tags>Micro ORM Framework POCO Database log4net</tags>
     <dependencies>
       <dependency id="log4net" version="2.0.0" />
-      <dependency id="MicroLite" version="1.0.0" />
+      <dependency id="MicroLite" version="5.0.0-alpha" />
     </dependencies>
   </metadata>
   <files>
