@@ -1,9 +1,22 @@
 MicroLite.Logging.Log4Net
 =========================
 
-An extension project for MicroLite ORM to add logging support for log4net.
+_MicroLite.Logging.Log4Net_ is an extension to the MicroLite ORM Framework which allows MicroLite to write any log statements to [log4net](http://logging.apache.org/log4net/).
 
-1. Install via NuGet `Install-Package MicroLite.Logging.Log4Net`
-2. Load the extension in the application startup
+In order to use the extension, you first need to install it via NuGet:
 
-`Configure.Extensions().WithLog4Net();`
+    Install-Package MicroLite.Logging.Log4Net
+
+You can then load the extension in your application start-up:
+
+    // Load the extensions for MicroLite
+    Configure
+       .Extensions()
+       .WithLog4Net();
+
+    // Create the session factory...
+    Configure
+       .Fluently()
+       ...
+
+For further information on configuring log4net, see [logging.apache.org/log4net/release/config-examples.html](http://logging.apache.org/log4net/release/config-examples.html)
