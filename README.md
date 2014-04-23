@@ -9,6 +9,9 @@ In order to use the extension, you first need to install it via NuGet:
 
 You can then load the extension in your application start-up:
 
+    // Configure log4net first, MicroLite.Logging.Log4Net assumes it has already been configured.
+    log4net.Config.XmlConfigurator.Configure();
+
     // Load the extensions for MicroLite
     Configure
        .Extensions()
