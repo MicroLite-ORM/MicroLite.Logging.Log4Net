@@ -19,7 +19,7 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("MicroLite.Logging.Log4Net")]
-[assembly: AssemblyDescription("MicroLite ORM Framework extension to use log4net")]
+[assembly: AssemblyDescription("MicroLite.Logging.Log4Net is an extension to the MicroLite ORM Framework which allows MicroLite to write any log statements to log4net")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("MicroLite")]
 [assembly: AssemblyProduct("MicroLite.Logging.Log4Net")]
