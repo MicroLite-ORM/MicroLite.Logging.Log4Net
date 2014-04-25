@@ -22,4 +22,8 @@ You can then load the extension in your application start-up:
        .Fluently()
        ...
 
-For further information on configuring log4net, see [logging.apache.org/log4net/release/config-examples.html](http://logging.apache.org/log4net/release/config-examples.html)
+For further information on configuring log4net, see [logging.apache.org/log4net/release/config-examples.html](http://logging.apache.org/log4net/release/config-examples.html).
+
+_Supported .NET Framework Versions_
+
+The NuGet Package contains binaries compiled against 3.5, 4.0 and 4.5.
