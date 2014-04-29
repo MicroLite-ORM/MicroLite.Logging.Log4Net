@@ -26,4 +26,8 @@ For further information on configuring log4net, see [logging.apache.org/log4net/
 
 _Supported .NET Framework Versions_
 
-The NuGet Package contains binaries compiled against 3.5, 4.0 and 4.5.
+The NuGet Package contains binaries compiled against:
+
+* .NET 3.5 (Client Profile)
+* .NET 4.0 (Client Profile)
+* .NET 4.5
