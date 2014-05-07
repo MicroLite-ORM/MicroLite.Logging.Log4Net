@@ -24,10 +24,14 @@ You can then load the extension in your application start-up:
 
 For further information on configuring log4net, see [logging.apache.org/log4net/release/config-examples.html](http://logging.apache.org/log4net/release/config-examples.html).
 
-_Supported .NET Framework Versions_
+## Supported .NET Framework Versions
 
 The NuGet Package contains binaries compiled against:
 
 * .NET 3.5 (Client Profile)
 * .NET 4.0 (Client Profile)
 * .NET 4.5
+
+## Supported log4net Versions
+
+* log4net 2.0.0 (1.2.11) onwards
