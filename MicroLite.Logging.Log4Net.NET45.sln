@@ -1,0 +1,26 @@
+﻿Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroLite.Logging.Log4Net.NET45", "MicroLite.Logging.Log4Net\MicroLite.Logging.Log4Net.NET45.csproj", "{848518F7-8DF8-4D94-BE16-390B4711D798}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{46C93CE0-3F44-44D3-BAB5-999739EA61A6}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{848518F7-8DF8-4D94-BE16-390B4711D798}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{848518F7-8DF8-4D94-BE16-390B4711D798}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{848518F7-8DF8-4D94-BE16-390B4711D798}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{848518F7-8DF8-4D94-BE16-390B4711D798}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

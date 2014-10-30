@@ -4,12 +4,12 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{83753EC5-884F-4ED1-AB34-1BF4AEDE2FCF}</ProjectGuid>
+    <ProjectGuid>{F5BED346-4BC3-4AFC-9D17-BCEEFC78452C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>MicroLite.Logging.Log4Net</RootNamespace>
     <AssemblyName>MicroLite.Logging.Log4Net</AssemblyName>
-    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <StyleCopTreatErrorsAsWarnings>false</StyleCopTreatErrorsAsWarnings>
     <TargetFrameworkProfile>Client</TargetFrameworkProfile>
@@ -22,7 +22,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DefineConstants>TRACE;DEBUG;CODE_ANALYSIS;NET_4_0</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <DocumentationFile>bin\Debug\MicroLite.Logging.Log4Net.xml</DocumentationFile>
@@ -33,7 +33,7 @@
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
-    <DefineConstants>TRACE</DefineConstants>
+    <DefineConstants>TRACE;CODE_ANALYSIS;NET_4_0</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <DocumentationFile>bin\Release\MicroLite.Logging.Log4Net.xml</DocumentationFile>
@@ -49,10 +49,11 @@
   <ItemGroup>
     <Reference Include="log4net, Version=1.2.11.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\log4net.2.0.0\lib\net35-client\log4net.dll</HintPath>
+      <HintPath>..\packages\log4net.2.0.0\lib\net40-client\log4net.dll</HintPath>
     </Reference>
-    <Reference Include="MicroLite">
-      <HintPath>..\packages\MicroLite.5.0.0\lib\net35-client\MicroLite.dll</HintPath>
+    <Reference Include="MicroLite, Version=5.0.0.0, Culture=neutral, PublicKeyToken=08410e6798c4fa37, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\MicroLite.5.0.0\lib\net40-client\MicroLite.dll</HintPath>
     </Reference>
     <Reference Include="System" />
   </ItemGroup>
