@@ -54,9 +54,8 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\log4net.2.0.0\lib\net40-full\log4net.dll</HintPath>
     </Reference>
-    <Reference Include="MicroLite, Version=5.0.0.0, Culture=neutral, PublicKeyToken=08410e6798c4fa37, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\MicroLite.5.0.0\lib\net45\MicroLite.dll</HintPath>
+    <Reference Include="MicroLite">
+      <HintPath>..\packages\MicroLite.6.0.0-rc\lib\net45\MicroLite.dll</HintPath>
     </Reference>
     <Reference Include="System" />
   </ItemGroup>
