@@ -34,9 +34,9 @@ namespace MicroLite.Configuration
 
             System.Diagnostics.Trace.TraceInformation("MicroLite: loading log4net extension.");
 
-            configureExtensions.SetLogResolver((string name) =>
+            configureExtensions.SetLogResolver((Type type) =>
             {
-                var logger = log4net.LogManager.GetLogger(name);
+                var logger = log4net.LogManager.GetLogger(type.FullName);
 
                 return new LogAdapter(logger);
             });
