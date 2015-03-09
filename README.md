@@ -1,6 +1,8 @@
 MicroLite.Logging.Log4Net
 =========================
 
+[![NuGet version](https://badge.fury.io/nu/MicroLite.Logging.Log4Net.svg)](http://badge.fury.io/nu/MicroLite.Logging.Log4Net)
+
 _MicroLite.Logging.Log4Net_ is an extension to the MicroLite ORM Framework which allows MicroLite to write any log statements to [log4net](http://logging.apache.org/log4net/).
 
 In order to use the extension, you first need to install it via NuGet:
