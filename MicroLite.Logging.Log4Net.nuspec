@@ -9,11 +9,10 @@
     <language>en-GB</language>
     <projectUrl>http://microliteorm.wordpress.com/</projectUrl>
     <licenseUrl>http://microliteorm.wordpress.com/license/</licenseUrl>
-    <copyright>Copyright 2012 - 2015 Project Contributors</copyright>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <tags>log4net MicroORM ORM POCO Database</tags>
     <dependencies>
-      <dependency id="MicroLite" version="6.1.0" />
+      <dependency id="MicroLite" version="[6.3,7.0)" />
       <dependency id="log4net" version="2.0.0" />
     </dependencies>
   </metadata>
@@ -24,5 +23,7 @@
     <file src="..\build\4.0\MicroLite.Logging.Log4Net.xml" target="lib\net40-client" />
     <file src="..\build\4.5\MicroLite.Logging.Log4Net.dll" target="lib\net45" />
     <file src="..\build\4.5\MicroLite.Logging.Log4Net.xml" target="lib\net45" />
+    <file src="..\build\4.6\MicroLite.Logging.Log4Net.dll" target="lib\net46" />
+    <file src="..\build\4.6\MicroLite.Logging.Log4Net.xml" target="lib\net46" />
   </files>
 </package>
