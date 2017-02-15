@@ -37,4 +37,4 @@ The NuGet Package contains binaries compiled against:
 
 ## Supported log4net Versions
 
-* log4net 2.0.0 (1.2.11) onwards
+* log4net 2.0.5 (1.2.15) onwards

@@ -14,7 +14,7 @@
     <tags>log4net MicroORM ORM POCO Database</tags>
     <dependencies>
       <dependency id="MicroLite" version="[6.3,7.0)" />
-      <dependency id="log4net" version="2.0.0" />
+      <dependency id="log4net" version="2.0.5" />
     </dependencies>
   </metadata>
   <files>
