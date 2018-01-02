@@ -45,4 +45,4 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyFileVersion("6.3.0.0")]
 [assembly: AssemblyInformationalVersion("6.3.0.58")]
 [assembly: CLSCompliant(true)]
-[assembly: NeutralResourcesLanguageAttribute("en-GB")]
+[assembly: NeutralResourcesLanguage("en-GB")]

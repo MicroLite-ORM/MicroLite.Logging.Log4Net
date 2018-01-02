@@ -1,6 +1,0 @@
-<StyleCopSettings Version="105">
-  <GlobalSettings>
-    <StringProperty Name="MergeSettingsFiles">Parent</StringProperty>
-    <BooleanProperty Name="AutoCheckForUpdate">False</BooleanProperty>
-  </GlobalSettings>
-</StyleCopSettings>

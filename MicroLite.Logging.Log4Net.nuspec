@@ -14,17 +14,15 @@
     <tags>log4net MicroORM ORM POCO Database</tags>
     <dependencies>
       <dependency id="MicroLite" version="[6.3,7.0)" />
-      <dependency id="log4net" version="2.0.5" />
+      <dependency id="log4net" version="2.0.8" />
     </dependencies>
   </metadata>
   <files>
-    <file src="..\build\3.5\MicroLite.Logging.Log4Net.dll" target="lib\net35-client" />
-    <file src="..\build\3.5\MicroLite.Logging.Log4Net.xml" target="lib\net35-client" />
-    <file src="..\build\4.0\MicroLite.Logging.Log4Net.dll" target="lib\net40-client" />
-    <file src="..\build\4.0\MicroLite.Logging.Log4Net.xml" target="lib\net40-client" />
-    <file src="..\build\4.5\MicroLite.Logging.Log4Net.dll" target="lib\net45" />
-    <file src="..\build\4.5\MicroLite.Logging.Log4Net.xml" target="lib\net45" />
-    <file src="..\build\4.6\MicroLite.Logging.Log4Net.dll" target="lib\net46" />
-    <file src="..\build\4.6\MicroLite.Logging.Log4Net.xml" target="lib\net46" />
+    <file src="MicroLite.Logging.Log4Net.NET35\bin\Release\MicroLite.Logging.Log4Net.dll" target="lib\net35-client" />
+    <file src="MicroLite.Logging.Log4Net.NET35\bin\Release\MicroLite.Logging.Log4Net.xml" target="lib\net35-client" />
+    <file src="MicroLite.Logging.Log4Net.NET40\bin\Release\MicroLite.Logging.Log4Net.dll" target="lib\net40-client" />
+    <file src="MicroLite.Logging.Log4Net.NET40\bin\Release\MicroLite.Logging.Log4Net.xml" target="lib\net40-client" />
+    <file src="MicroLite.Logging.Log4Net.NET45\bin\Release\MicroLite.Logging.Log4Net.dll" target="lib\net45" />
+    <file src="MicroLite.Logging.Log4Net.NET45\bin\Release\MicroLite.Logging.Log4Net.xml" target="lib\net45" />
   </files>
 </package>
