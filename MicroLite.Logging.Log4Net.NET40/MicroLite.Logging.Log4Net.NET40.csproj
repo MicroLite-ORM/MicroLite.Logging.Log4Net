@@ -57,10 +57,10 @@
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\MicroLite.Logging.Log4Net.NET35\Log4NetConfigurationExtensions.cs">
+    <Compile Include="..\MicroLite.Logging.Log4Net.NET45\Log4NetConfigurationExtensions.cs">
       <Link>Log4NetConfigurationExtensions.cs</Link>
     </Compile>
-    <Compile Include="..\MicroLite.Logging.Log4Net.NET35\LogAdapter.cs">
+    <Compile Include="..\MicroLite.Logging.Log4Net.NET45\LogAdapter.cs">
       <Link>LogAdapter.cs</Link>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
