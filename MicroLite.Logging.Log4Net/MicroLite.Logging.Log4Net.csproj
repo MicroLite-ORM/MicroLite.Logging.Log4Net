@@ -51,6 +51,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <CodeAnalysisDictionary Include="..\CustomDictionary.xml" Link="CustomDictionary.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Include="..\MicroLite.snk" Link="MicroLite.snk" />
   </ItemGroup>
 
