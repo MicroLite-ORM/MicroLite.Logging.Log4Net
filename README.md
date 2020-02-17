@@ -1,13 +1,20 @@
-MicroLite.Logging.Log4Net
-=========================
+# MicroLite.Logging.Log4Net
 
-[![NuGet version](https://badge.fury.io/nu/MicroLite.Logging.Log4Net.svg)](http://badge.fury.io/nu/MicroLite.Logging.Log4Net)
+## Status
 
-_MicroLite.Logging.Log4Net_ is an extension to the MicroLite ORM Framework which allows MicroLite to write any log statements to [log4net](http://logging.apache.org/log4net/).
+|Service|Status|
+|-------|------|
+||[![NuGet version](https://badge.fury.io/nu/MicroLite.Logging.Log4Net.svg)](http://badge.fury.io/nu/MicroLite.Logging.Log4Net)|
+|/develop|[![Build Status](https://dev.azure.com/trevorpilley/MicroLite-ORM/_apis/build/status/MicroLite-ORM.MicroLite.Logging.Log4Net?branchName=develop)](https://dev.azure.com/trevorpilley/MicroLite-ORM/_build/latest?definitionId=33&branchName=develop)|
+|/master|[![Build Status](https://dev.azure.com/trevorpilley/MicroLite-ORM/_apis/build/status/MicroLite-ORM.MicroLite.Logging.Log4Net?branchName=master)](https://dev.azure.com/trevorpilley/MicroLite-ORM/_build/latest?definitionId=33&branchName=master)|
 
-In order to use the extension, you first need to install it via NuGet:
+## Installation
 
-    Install-Package MicroLite.Logging.Log4Net
+Install the nuget package `Install-Package MicroLite.Extensions.Log4Net`
+
+## Summary
+
+MicroLite.Logging.Log4Net is a .NET 4.5 library which adds an extension for the MicroLite ORM Framework to use log4net as the logging library.
 
 You can then load the extension in your application start-up:
 
@@ -26,15 +33,10 @@ You can then load the extension in your application start-up:
 
 For further information on configuring log4net, see [logging.apache.org/log4net/release/config-examples.html](http://logging.apache.org/log4net/release/config-examples.html).
 
-## Supported .NET Framework Versions
+## Supported .NET Versions
 
-The NuGet Package contains binaries compiled against:
+The NuGet Package contains binaries compiled against (dependencies indented):
 
-* .NET 3.5 (Client Profile)
-* .NET 4.0 (Client Profile)
-* .NET 4.5
-* .NET 4.6
-
-## Supported log4net Versions
-
-* log4net 2.0.5 (1.2.15) onwards
+* .NET Framework 4.5
+  * MicroLite 6.3.1
+  * log4net 2.0.8
