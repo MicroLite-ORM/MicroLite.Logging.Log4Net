@@ -5,7 +5,13 @@
       <Word></Word>
     </Unrecognized>
     <Recognized>
+      <Word>Enum</Word>
       <Word>Lite</Word>
+      <Word>Ms</Word>
+      <Word>My</Word>
+      <Word>Nullable</Word>
+      <Word>Poco</Word>
+      <Word>Postgre</Word>
     </Recognized>
     <Deprecated>
       <Term PreferredAlternate=""></Term>

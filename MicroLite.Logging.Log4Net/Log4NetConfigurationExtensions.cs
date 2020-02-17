@@ -1,6 +1,6 @@
 ﻿// -----------------------------------------------------------------------
 // <copyright file="Log4NetConfigurationExtensions.cs" company="Project Contributors">
-// Copyright 2012 - 2018 Project Contributors
+// Copyright Project Contributors
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -10,11 +10,11 @@
 //
 // </copyright>
 // -----------------------------------------------------------------------
+using System;
+using MicroLite.Logging.Log4Net;
+
 namespace MicroLite.Configuration
 {
-    using System;
-    using MicroLite.Logging.Log4Net;
-
     /// <summary>
     /// Extensions for the MicroLite configuration.
     /// </summary>
@@ -27,7 +27,7 @@ namespace MicroLite.Configuration
         /// <returns>The configure extensions.</returns>
         public static IConfigureExtensions WithLog4Net(this IConfigureExtensions configureExtensions)
         {
-            if (configureExtensions == null)
+            if (configureExtensions is null)
             {
                 throw new ArgumentNullException(nameof(configureExtensions));
             }
@@ -36,7 +36,7 @@ namespace MicroLite.Configuration
 
             configureExtensions.SetLogResolver((Type type) =>
             {
-                var logger = log4net.LogManager.GetLogger(type.FullName);
+                log4net.ILog logger = log4net.LogManager.GetLogger(type.FullName);
 
                 return new LogAdapter(logger);
             });
