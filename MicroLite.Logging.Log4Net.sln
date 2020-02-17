@@ -3,12 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 15.0.26124.0
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroLite.Logging.Log4Net", "MicroLite.Logging.Log4Net\MicroLite.Logging.Log4Net.csproj", "{65236B31-1246-4F7C-B2CA-35C6161C82C3}"
+EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C7DC9506-EC84-4CB1-A7CB-AD4A114FF17D}"
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
 	EndProjectSection
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroLite.Logging.Log4Net", "MicroLite.Logging.Log4Net\MicroLite.Logging.Log4Net.csproj", "{65236B31-1246-4F7C-B2CA-35C6161C82C3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
