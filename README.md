@@ -38,5 +38,5 @@ For further information on configuring log4net, see [logging.apache.org/log4net/
 The NuGet Package contains binaries compiled against (dependencies indented):
 
 * .NET Framework 4.5
-  * MicroLite 6.3.1
+  * MicroLite 7.0.0
   * log4net 2.0.8
