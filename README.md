@@ -1,6 +1,5 @@
-# MicroLite.Logging.Log4Net
-
-## Status
+MicroLite.Logging.Log4Net
+=========================
 
 |Service|Status|
 |-------|------|
@@ -8,13 +7,13 @@
 |/develop|[![Build Status](https://dev.azure.com/trevorpilley/MicroLite-ORM/_apis/build/status/MicroLite-ORM.MicroLite.Logging.Log4Net?branchName=develop)](https://dev.azure.com/trevorpilley/MicroLite-ORM/_build/latest?definitionId=33&branchName=develop)|
 |/master|[![Build Status](https://dev.azure.com/trevorpilley/MicroLite-ORM/_apis/build/status/MicroLite-ORM.MicroLite.Logging.Log4Net?branchName=master)](https://dev.azure.com/trevorpilley/MicroLite-ORM/_build/latest?definitionId=33&branchName=master)|
 
+MicroLite.Logging.Log4Net is a .NET 4.5 library which adds an extension for the MicroLite ORM Framework to use log4net as the logging library.
+
 ## Installation
 
 Install the nuget package `Install-Package MicroLite.Extensions.Log4Net`
 
-## Summary
-
-MicroLite.Logging.Log4Net is a .NET 4.5 library which adds an extension for the MicroLite ORM Framework to use log4net as the logging library.
+## Configuration
 
 You can then load the extension in your application start-up:
 
