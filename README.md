@@ -1,13 +1,13 @@
-MicroLite.Logging.Log4Net
-=========================
-
-|Service|Status|
-|-------|------|
-||[![NuGet version](https://badge.fury.io/nu/MicroLite.Logging.Log4Net.svg)](http://badge.fury.io/nu/MicroLite.Logging.Log4Net)|
-|/develop|[![Build Status](https://dev.azure.com/trevorpilley/MicroLite-ORM/_apis/build/status/MicroLite-ORM.MicroLite.Logging.Log4Net?branchName=develop)](https://dev.azure.com/trevorpilley/MicroLite-ORM/_build/latest?definitionId=33&branchName=develop)|
-|/master|[![Build Status](https://dev.azure.com/trevorpilley/MicroLite-ORM/_apis/build/status/MicroLite-ORM.MicroLite.Logging.Log4Net?branchName=master)](https://dev.azure.com/trevorpilley/MicroLite-ORM/_build/latest?definitionId=33&branchName=master)|
+# MicroLite.Logging.Log4Net
 
 MicroLite.Logging.Log4Net is a .NET 4.5 library which adds an extension for the MicroLite ORM Framework to use log4net as the logging library.
+
+![Nuget](https://img.shields.io/nuget/dt/MicroLite.Logging.Log4Net)
+
+|Branch|Status|
+|------|------|
+|/develop|![GitHub last commit (branch)](https://img.shields.io/github/last-commit/MicroLite-ORM/MicroLite.Logging.Log4Net/develop) [![Build Status](https://dev.azure.com/trevorpilley/MicroLite-ORM/_apis/build/status/MicroLite-ORM.MicroLite.Logging.Log4Net?branchName=develop)](https://dev.azure.com/trevorpilley/MicroLite-ORM/_build/latest?definitionId=33&branchName=develop) ![Nuget (with prereleases)](https://img.shields.io/nuget/vpre/MicroLite.Logging.Log4Net)|
+|/master|![GitHub last commit](https://img.shields.io/github/last-commit/MicroLite-ORM/MicroLite.Logging.Log4Net/master) [![Build Status](https://dev.azure.com/trevorpilley/MicroLite-ORM/_apis/build/status/MicroLite-ORM.MicroLite.Logging.Log4Net?branchName=master)](https://dev.azure.com/trevorpilley/MicroLite-ORM/_build/latest?definitionId=33&branchName=master) ![Nuget](https://img.shields.io/nuget/v/MicroLite.Logging.Log4Net) ![GitHub Release Date](https://img.shields.io/github/release-date/MicroLite-ORM/MicroLite.Logging.Log4Net)|
 
 ## Installation
 
